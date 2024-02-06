@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilay Koul Portfolio</title>
+    <link rel="icon" href="Icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+
+        table, tr, th, thead, td{
+            margin: auto;
+            border: solid;
+            border-width: 2px;
+            border-collapse: collapse;
+        }
+
+        .pair{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1px;
+        }
+        .pairing{
+           padding: 0 50px;
+            border: 5px solid black;
+        }
+
+        li{
+            text-align: left;
+        }
+
+        .AboutMe{
+            border: 5px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <script src="S:\SEM 3\CODING T_T\bootstrap-5.3.2-dist\bootstrap-5.3.2-dist\js\bootstrap.bundle.min.js"></script>
+
+    <header>
+        <h1 style="color: #fff;">
+            <img src="SELF NEW.jpg" alt="Self" height="150">
+            <br>
+            Nilay Koul
+        </h1>
+        <p><a href="#AboutMe">About Me</a> <a href="#Education">Education</a> 
+            <a href="#Skills">Skills</a> <a href="#Contact">Contact</a></p>
+    </header>
+
+    <section id="AboutMe" class="AboutMe">
+        <h2 style="text-align: center;"><b>About Me</b></h2>
+        <p style="text-align: center;">
+            Welcome to my portfolio!
+            I am a second-year engineering student with a fervent passion for sports and technology. I am well-versed in programming languages such as C, Python, HTML, and CSS. My technical proficiency extends to computer vision, where I have a strong foundation in OpenCV and MediaPipe basics. 
+            <br><br>
+            Beyond academics and coding, I'm a passionate sports enthusiast who enjoys watching and analyzing various sports events. Whether it's professional leagues or local matches, I find joy in immersing myself in the dynamics of the games. It's this unique blend of coding expertise and sports appreciation that shapes my well-rounded perspective in both realms.
+        </p>
+    </section>
+
+    <div class="pair">
+        <section id="Education" class="pairing">
+            <h2 style="text-align: center;">Education</h2>
+            <p>
+                <table style="text-align: center;" >
+                    <thead>
+                        <tr>
+                            <th>Institute</th>
+                            <th>Degree</th>
+                            <th>Year Of Graduation</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr> 
+                            <td>Ryan International</td>
+                            <td>10th</td>
+                            <td>2020</td>
+                            <td>91.4%</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Ryan International</td>
+                            <td>    12th</td>
+                            <td>2022</td>
+                            <td>78.6%</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>DJ Sanghvi</td>
+                            <td>BTech</td>
+                            <td>2022-present</td>
+                            <td>8.8 CGPA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+        </section>
+
+        <section id="Skills" class="pairing">
+            <h2 style="text-align: center;">Skills</h2>
+            <ul style="text-align: center; list-style-type: square; margin: 0px; padding: 0 46mm;">
+                <li>C</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>OpenCV</li>
+                <li>MediaPipe</li>
+                <li>Java</li>
+                <br>
+            </ul>
+        </section>
+    </div>
+
+    <section id="Achievement" class="Achievement">
+        <h2 style="text-align: center;">Achievments</h2>
+        <div class="pair">
+            <section class="pairing">
+                <p>
+                    Academic
+                    <ul>
+                        <li></li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <div id="Contact" style="background-color: #333;">
+            <h2 style="color: whitesmoke;">Contact</h2>
+            <a href="tel:+918291089328"><img src="Phone.png" alt="Phone" width="50"></a>
+            <a href="mailto:koulnilay28@gmail.com" target="_blank"><img src="Email.png" alt="Email" width="50"></a>
+            <a href="https://twitter.com/KoulNilay" target="_blank"><img src="X.png" alt="X" width="50"></a>
+            <a href="https://github.com/Nilay-28" target="_blank"><img src="github.png" alt="Github" width="50"></a>
+            <a href="https://www.linkedin.com/in/nilay-koul-57b797265/" target="_blank"><img src="linkedin.png" alt="Linkedin" width="50"></a>
+        </div>
+        &copy; 2024 Nilay Koul - Portfolio
+    </footer>
+
+</body>
+</html>
