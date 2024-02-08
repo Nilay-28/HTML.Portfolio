@@ -37,10 +37,6 @@
             color: #666;
         }
 
-        .project {
-            margin-bottom: 20px;
-        }
-
         footer {
             text-align: center;
             padding: 1em;
@@ -55,14 +51,24 @@
             border-collapse: collapse;
         }
 
-        .pair{
+        .pair1{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             gap: 1px;
         }
-        .pairing{
-           padding: 0 50px;
+        .pairing1{
+            padding: 0 50px;
             border: 5px solid black;
+        }
+
+        .pair2{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1px;
+        }
+        .pairing2{
+            padding: 0 50px;
+            border: double 5px black;
         }
 
         li{
@@ -73,13 +79,16 @@
             border: 5px solid black;
         }
 
+        .Achievement{
+            border: 5px solid black;
+        }
+
     </style>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
         <h1 style="color: #fff;">
-            <img src="SELF NEW.jpg" alt="Self" height="150">
+            <img src="SELF NEW.jpg" alt="Self" height="150" class="rounded-circle">
             <br>
             Nilay Koul
         </h1>
@@ -97,11 +106,11 @@
         </p>
     </section>
 
-    <div class="pair">
-        <section id="Education" class="pairing">
+    <div class="pair1 vertical-center">
+        <section id="Education" class="pairing1 container-sd">
             <h2 style="text-align: center;">Education</h2>
             <p>
-                <table style="text-align: center;" >
+                <table style="text-align: center;">
                     <thead>
                         <tr>
                             <th>Institute</th>
@@ -138,7 +147,7 @@
             </p>
         </section>
 
-        <section id="Skills" class="pairing">
+        <section id="Skills" class="pairing1">
             <h2 style="text-align: center;">Skills</h2>
             <ul style="text-align: center; list-style-type: square; margin: 0px; padding: 0 46mm;">
                 <li>C</li>
@@ -156,14 +165,25 @@
 
     <section id="Achievement" class="Achievement">
         <h2 style="text-align: center;">Achievments</h2>
-        <div class="pair">
-            <section class="pairing">
-                <p>
-                    Academic
+        <div class="pair2">
+            <section class="pairing2">
+                <p style="text-align: center;">
+                    <b style="color: black; font-size:larger;">Academic</b>
                     <ul>
+                        <li>Maths Olympiad: Silver Medal</li>
+                        <li>Inter-School Physics Quiz</li>
                         <li></li>
-                        <li></li>
-                        <li></li>
+                    </ul>
+                </p>
+            </section>
+            <section class="pairing2">
+                <p style="text-align: center;">
+                    <b style="color: black; font-size: larger;">Co-Curricular</b>
+                    <ul>
+                        <li>Elementary Drawing: Grade-B</li>
+                        <li>Intermediate Drawing: Grade-C</li>
+                        <li>Cricket Tournament: 2nd Place</li>
+                        <li>Volleyball Tournament: 2nd Place</li>
                     </ul>
                 </p>
             </section>
@@ -183,6 +203,6 @@
         </div>
         &copy; 2024 Nilay Koul - Portfolio
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
